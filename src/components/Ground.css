@@ -1,0 +1,86 @@
+.ground-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 25em;
+  margin-top: 20%;
+  border-radius: 10px;
+  background: #F8F8F8; 
+  box-shadow: 0 34px 24px rgba(79, 79, 79, 0.1)  ; 
+	-webkit-box-shadow: 0 34px 24px rgba(79, 79, 79, 0.1)  ; 
+	-moz-box-shadow: 0 34px 24px rgba(79, 79, 79, 0.1)  ; 
+}
+
+.ground-container h1 {
+  letter-spacing: -2px;
+}
+
+.wrapper {
+  padding: 1em;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+  text-transform: uppercase;
+}
+
+.wrapper h2 {
+  padding: 1em;
+  letter-spacing: -1px;
+}
+
+.wrapper p {
+  letter-spacing: 1px;
+}
+
+
+.add {
+  padding: 15px 30px 15px 30px;
+  margin-top: 4em;
+  background: rgb(74, 216, 74);
+  color: white;
+  font-size: 1em;
+  outline: none;
+  cursor: pointer;
+  opacity: 1;
+  border:none;
+  transition: 0.4s ease;
+}
+
+.add:hover {
+  opacity: 0.7;
+}
+
+
+
+
+.is-added  {
+  padding: 15px 30px 15px 30px;
+  margin-top: 4em;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 1em;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.is-added:hover {
+  color: white;
+  background: black;
+}
+
+.back-to-grounds {
+  width: max-content;
+  padding: 10px 15px;
+  margin-top: 4em;
+  border: none;
+  outline: none;
+  transition: 0.4s ease;
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+.back-to-grounds:hover {
+  background: grey;
+  color: white;
+}
+
