@@ -24,18 +24,15 @@ const Ground = () => {
 
   }, [groundsData])
 
-
   return (
     <div className='ground-container fade-in'>
           <div className='wrapper1 wrapper'>
             <h1>{ground.groundName}</h1>
           </div>
-
           <div className='wrapper2 wrapper'>
             <h2>Location</h2>
             <p>{ground.address}</p>
           </div>
-
           <div className='wrapper3 wrapper'>
             <h2>Ground details</h2>
             <p>{ground.limit}</p>

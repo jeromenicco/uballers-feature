@@ -13,8 +13,6 @@ const GroundsList = () => {
   const data = Object.values(grounds)
   console.log(data);
 
-
-
   return (
     <div className='grounds-list-container fade-in'>
       <h1>Grounds list</h1>
