@@ -27,7 +27,8 @@
 }
 
 .wrapper p {
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
 }
 
 

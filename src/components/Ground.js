@@ -36,7 +36,7 @@ const Ground = () => {
           <div className='wrapper3 wrapper'>
             <h2>Ground details</h2>
             <p>{ground.limit}</p>
-            <p>{ground.basketNumber}</p>
+            <p>{ground.basketNumber} hoops</p>
             <p>{ground.transport}</p>
           </div>
             <input 
