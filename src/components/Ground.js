@@ -20,13 +20,16 @@ const Ground = () => {
     const dataToArr = Object.values(groundsData)
     const grounds = dataToArr[3]
     const data = Object.values(grounds).filter(ground => ground.groundId === id)[0]
+      console.log('FILTER ON INDEX 0 TO MATCH URL ---->', data)
+
     setGround(data)
 
-  }, [groundsData])
+  }, [id])
 
   return (
     <div className='ground-container fade-in'>
           <div className='wrapper1 wrapper'>
+
             <h1>{ground.groundName}</h1>
           </div>
           <div className='wrapper2 wrapper'>
